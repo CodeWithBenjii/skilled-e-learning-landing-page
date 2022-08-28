@@ -1,7 +1,15 @@
+import CardsSection from './components/CardsSection';
+import FooterSection from './components/FooterSection';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
-      <hi>Hi</hi>
+      <Navbar />
+      <HeroSection />
+      <CardsSection />
+      <FooterSection />
     </div>
   );
 }
